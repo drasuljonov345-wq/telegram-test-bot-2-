@@ -10,7 +10,7 @@ import os
 from datetime import datetime
 
 # Bot Token - Bu yerga o'z bot tokeningizni qo'ying
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
+BOT_TOKEN = "8583732852:AAE9jIiZ9urIXv1AHY-9h_1QQQdrP9FgQ9I"
 
 # Holatlar
 CREATING_TEST, ADD_QUESTION, ADD_OPTIONS, ADD_ANSWER, TAKING_TEST = range(5)
@@ -20,7 +20,7 @@ TESTS_FILE = "tests.json"
 RESULTS_FILE = "results.json"
 
 # Admin ID - O'qituvchi ID
-ADMIN_ID = 123456789  # Bu yerga o'z Telegram ID ni qo'ying
+ADMIN_ID = 7244207532  # Bu yerga o'z Telegram ID ni qo'ying
 
 def load_data(filename):
     """Fayldan ma'lumotlarni yuklash"""
@@ -425,4 +425,5 @@ def main():
     application.run_polling()
 
 if __name__ == '__main__':
+
     main()
